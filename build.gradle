@@ -1,6 +1,6 @@
 plugins {
     id 'war'    // Creates a webapp jar file, ie a '.war' file. Extends the ‘java’ plugin
-    id 'org.gretty' version '4.1.1' // This includes a jetty webserver
+    id 'org.gretty' version '3.1.1' // This includes a jetty webserver
 }
 version '1.0-SNAPSHOT'
 
