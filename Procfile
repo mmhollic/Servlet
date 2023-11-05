@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -jar ./webapp-runner-9.0.27.1.jar --port $PORT ./build/libs/ServletTest3-1.0-SNAPSHOT.war
+web: java $JAVA_OPTS -jar ./webapp-runner-9.0.24.1.jar --port $PORT ./build/libs/ServletTest3-1.0-SNAPSHOT.war
