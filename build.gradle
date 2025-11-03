@@ -33,7 +33,8 @@ build.mustRunAfter clean
 dependencies {
     // to include the servlet libraries
     compileOnly group: 'javax.servlet', name: 'javax.servlet-api', version: '4.0.1'
-    testImplementation platform('org.junit:junit-bom:5.9.1')
+    //testImplementation platform('org.junit:junit-bom:5.9.1')
+    testImplementation platform('org.junit:junit-bom:5.10.0')
     testImplementation 'org.junit.jupiter:junit-jupiter'
 }
 test {
