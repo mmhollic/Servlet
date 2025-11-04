@@ -10,6 +10,6 @@ public class MainServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         resp.setContentType("text/html");
-        resp.getWriter().write("<b>Hello, Bioeng software teams in RSM3.38!</b>");
+        resp.getWriter().write("<b>Hello, Bioeng software teams in RSM3.38 in Imperial College!</b>");
     }
 }
